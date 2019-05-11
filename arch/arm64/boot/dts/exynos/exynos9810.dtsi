@@ -5026,7 +5026,7 @@
 		/* single_freq is parsed from ECT */
 		dual_freq = <2314000>;
 		triple_freq = <1794000>;
-		quad_freq = <1794000>;
+		quad_freq = <1586000>;//Underclocked big cluster
 		cal-id = <ACPM_DVFS_CPUCL1>;
 	};
 
