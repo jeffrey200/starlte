@@ -630,7 +630,7 @@ static bool check_for_block(struct wakeup_source *ws)
 static void wakeup_source_report_event(struct wakeup_source *ws)
 {
 #ifdef CONFIG_BOEFFLA_WL_BLOCKER
-	if (!check_fo_block(ws)) {
+	if (!check_for_block(ws)) {
 #endif
 	ws->event_count++;
 	/* This is racy, but the counter is approximate anyway. */
